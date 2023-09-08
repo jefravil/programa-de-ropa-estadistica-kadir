@@ -41,7 +41,7 @@ while variable1dedesicion:
 # partedecargararchivo viejo inicio
         nombredelarchivopasado = str(input("ingrese el nombre del archivo que desea continuar"))
         #rutadelarchivopasado= input("ingrese sin comillas la ruta del archivo que desea continuar")
-        wb = openpyxl.load_workbook("D:\\users\\daddyjeff\\desktop\\jeffaprende" + "\\" + nombredelarchivopasado + ".xlsx")
+        wb = openpyxl.load_workbook("D:\\users\\jeff\\desktop\\jeffaprende" + "\\" + nombredelarchivopasado + ".xlsx")
         #wb = openpyxl.load_workbook(rutadelarchivopasado)
         print((wb))
         sheets = wb.sheetnames
@@ -51,7 +51,7 @@ while variable1dedesicion:
         rowsh1 = sh1.max_row
         print("Hay", rowsh1 - 1, "encuestados")
         #ubicaciondeguardado=rutadelarchivopasado
-        ubicaciondeguardado = "D:\\users\\daddyjeff\\desktop\\jeffaprende" + "\\" + nombredelarchivopasado + ".xlsx"
+        ubicaciondeguardado = "D:\\users\\jeff\\desktop\\jeffaprende" + "\\" + nombredelarchivopasado + ".xlsx"
         # parte de cargar archivo viejo final
 
     else:
